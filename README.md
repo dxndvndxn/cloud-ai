@@ -10,6 +10,14 @@
 - Docker Compose
 - Свободные порты 8000 (backend) и 5173 (frontend)
 
+## Некие артефакты при использовании
+Иногда при работе backend возникает ошибки ASGI (покажется в нотифекешене в правом нижнем углу), в таком случае нужно перезагрузить страницу
+
+## Docker образы (если нужны)
+
+- **Frontend**: https://hub.docker.com/r/dxndvndxn/cloud-ai-frontend
+- **Backend**: https://hub.docker.com/r/dxndvndxn/cloud-ai-backend
+
 ## Быстрый старт
 
 ### 1. Клонирование и переход в директорию проекта
