@@ -1,0 +1,21 @@
+.sideControl {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputs {
+  display: grid;
+  gap: 16px 0;
+}
+
+.mB20 {
+  margin-bottom: 20px;
+}
+
+.divider {
+  margin: 20px 0;
+}
+
+.text {
+  height: 100%;
+}

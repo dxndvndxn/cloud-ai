@@ -1,0 +1,11 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: 30% 34px calc(70% - 33px);
+  min-height: 100vh;
+  padding: 1rem;
+}
+
+.divider {
+  height: calc(100vh - 2rem) !important;
+  margin: 0 16px !important;
+}

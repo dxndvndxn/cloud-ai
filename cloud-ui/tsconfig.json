@@ -1,0 +1,34 @@
+{
+  "extends": "@cloud-ru/ft-config-tsconfig",
+  "ts-node": {
+    "compilerOptions": {
+      "module": "CommonJS",
+      "types": ["vite/client"]
+    }
+  },
+  "compilerOptions": {
+    "baseUrl": "./",
+    "declaration": false,
+    "emitDeclarationOnly": false,
+    "noEmit": true,
+    "paths": {
+      "#app": ["src/app"],
+      "#app/*": ["src/app/*"],
+      "#pages": ["src/pages"],
+      "#pages/*": ["src/pages/*"],
+      "#assets/*": ["src/assets/*"],
+      "#components/*": ["src/components/*"],
+      "#constants/*": ["src/constants/*"],
+      "#contexts/*": ["src/contexts/*"],
+      "#hooks": ["src/hooks/index"],
+      "#hooks/*": ["src/hooks/*"],
+      "#services/*": ["src/services/*"],
+      "#types/*": ["src/types/*"],
+      "#utils/*": ["src/utils/*"],
+      "#styles/*": ["src/styles/*"],
+      "#shared/": ["src/shared/"],
+      "#shared/*": ["src/shared/*"],
+    }
+  },
+  "include": ["src", "types", "vite-env.d.ts"]
+}

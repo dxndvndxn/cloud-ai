@@ -1,0 +1,1 @@
+export { structureFilesAdapter } from './structureFilesAdapter';

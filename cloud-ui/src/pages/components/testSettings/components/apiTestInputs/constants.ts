@@ -1,0 +1,25 @@
+import { type FieldSelectProps } from '@snack-uikit/fields';
+
+export const tagsOptions: FieldSelectProps['options'] = [
+  { option: 'VMs', value: 'VMs' },
+  { option: 'Availability Zones', value: 'Availability Zones' },
+  { option: 'Available IP addresses', value: 'Available IP addresses' },
+  { option: 'Available subnets', value: 'Available subnets' },
+  { option: 'Backups', value: 'Backups' },
+  { option: 'Disk Types', value: 'Disk Types' },
+  { option: 'Disks', value: 'Disks' },
+  { option: 'Flavors', value: 'Flavors' },
+  { option: 'Floating IPs', value: 'Floating IPs' },
+  { option: 'Images', value: 'Images' },
+  { option: 'Interfaces', value: 'Interfaces' },
+  { option: 'NAT Gateways', value: 'NAT Gateways' },
+  { option: 'Organization limits', value: 'Organization limits' },
+  { option: 'Organizations', value: 'Organizations' },
+  { option: 'Parameters', value: 'Parameters' },
+  { option: 'Placement Groups', value: 'Placement Groups' },
+  { option: 'Projects', value: 'Projects' },
+  { option: 'Security Group Rules', value: 'Security Group Rules' },
+  { option: 'Security Groups', value: 'Security Groups' },
+  { option: 'Subnets', value: 'Subnets' },
+  { option: 'Tasks', value: 'Tasks' },
+];

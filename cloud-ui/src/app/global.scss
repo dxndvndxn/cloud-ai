@@ -1,0 +1,75 @@
+@use '@snack-uikit/figma-tokens-nachos/build/scss/styles-theme-variables.scss' as vars;
+@use '@snack-uikit/figma-tokens-nachos/build/scss/brand.scss' as brands;
+
+.light {
+  @include brands.lightThemeMode;
+}
+
+.dark {
+  @include brands.darkThemeMode;
+}
+
+// INSERT YOUR CUSTOM COLORS
+
+// .light {
+//   --sys-primary-background: #f0f9f5;
+//   --sys-primary-background1-level: #f4fdf9;
+//   --sys-primary-background2-level: #fbfffd;
+//   --sys-primary-decor-default: #c9eadc;
+//   --sys-primary-decor-hovered: #b2decb;
+//   --sys-primary-decor-activated: #97d7bd;
+//   --sys-primary-decor-disabled: #e3f3ec;
+//   --sys-primary-text-main: #165843;
+//   --sys-primary-text-support: #2b8668;
+//   --sys-primary-text-light: #67af93;
+//   --sys-primary-text-disabled: #80c4a9;
+//   --sys-primary-accent-default: #51b08e;
+//   --sys-primary-accent-hovered: #2f9473;
+//   --sys-primary-accent-pressed: #2b8668;
+//   --sys-primary-on-accent: #fbfffd;
+// }
+
+// .dark {
+//   --sys-primary-background: #1c2420;
+//   --sys-primary-background1-level: #1b2923;
+//   --sys-primary-background2-level: #1b3028;
+//   --sys-primary-decor-default: #164a39;
+//   --sys-primary-decor-hovered: #165843;
+//   --sys-primary-decor-activated: #1e604a;
+//   --sys-primary-decor-disabled: #18392d;
+//   --sys-primary-text-main: #e3f3ec;
+//   --sys-primary-text-support: #80c4a9;
+//   --sys-primary-text-light: #2b8668;
+//   --sys-primary-text-disabled: #16674e;
+//   --sys-primary-accent-default: #67af93;
+//   --sys-primary-accent-hovered: #51b08e;
+//   --sys-primary-accent-pressed: #2f9473;
+//   --sys-primary-on-accent: #1b2923;
+// }
+
+html,
+body {
+  min-width: 960px;
+  max-width: 100vw;
+  min-height: 100vh;
+}
+
+body {
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: vars.$sys-neutral-text-main;
+
+  background: vars.$sys-neutral-background;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
